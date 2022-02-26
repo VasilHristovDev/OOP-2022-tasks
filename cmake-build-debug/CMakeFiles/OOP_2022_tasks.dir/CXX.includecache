@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/OOP/OOP-2022-tasks/Structures/ComplexNumber.h
+iostream
+-
+cmath
+-
+
+D:/OOP/OOP-2022-tasks/Structures/Employee.h
+iostream
+-
+
+D:/OOP/OOP-2022-tasks/Structures/struct_practicum1.cpp
+ComplexNumber.h
+D:/OOP/OOP-2022-tasks/Structures/ComplexNumber.h
+Employee.h
+D:/OOP/OOP-2022-tasks/Structures/Employee.h
+
