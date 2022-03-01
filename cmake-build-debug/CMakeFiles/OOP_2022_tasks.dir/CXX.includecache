@@ -6,19 +6,19 @@
 
 #IncludeRegexTransform: 
 
-D:/OOP/OOP-2022-tasks/Structures/ComplexNumber.h
-iostream
--
-cmath
--
-
-D:/OOP/OOP-2022-tasks/Structures/Employee.h
+D:/OOP/OOP-2022-tasks/Structures/exercises/Appliances.h
 iostream
 -
 
-D:/OOP/OOP-2022-tasks/Structures/struct_practicum1.cpp
-ComplexNumber.h
-D:/OOP/OOP-2022-tasks/Structures/ComplexNumber.h
-Employee.h
-D:/OOP/OOP-2022-tasks/Structures/Employee.h
+D:/OOP/OOP-2022-tasks/Structures/exercises/IntArray.h
+iostream
+-
+
+D:/OOP/OOP-2022-tasks/Structures/exercises/exercise1.cpp
+iostream
+-
+Appliances.h
+D:/OOP/OOP-2022-tasks/Structures/exercises/Appliances.h
+IntArray.h
+D:/OOP/OOP-2022-tasks/Structures/exercises/IntArray.h
 

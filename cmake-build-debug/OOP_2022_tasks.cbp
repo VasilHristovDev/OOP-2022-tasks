@@ -82,13 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Structures/ComplexNumber.h">
-			<Option target="OOP_2022_tasks"/>
-		</Unit>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Structures/Employee.h">
-			<Option target="OOP_2022_tasks"/>
-		</Unit>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Structures/struct_practicum1.cpp">
+		<Unit filename="D:/OOP/OOP-2022-tasks/Structures/exercises/exercise1.cpp">
 			<Option target="OOP_2022_tasks"/>
 		</Unit>
 		<Unit filename="D:/OOP/OOP-2022-tasks/CMakeLists.txt">

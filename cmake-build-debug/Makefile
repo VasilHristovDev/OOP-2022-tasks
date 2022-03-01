@@ -118,29 +118,29 @@ OOP_2022_tasks\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\build
 .PHONY : OOP_2022_tasks\fast
 
-Structures\struct_practicum1.obj: Structures\struct_practicum1.cpp.obj
-.PHONY : Structures\struct_practicum1.obj
+Structures\exercises\exercise1.obj: Structures\exercises\exercise1.cpp.obj
+.PHONY : Structures\exercises\exercise1.obj
 
 # target to build an object file
-Structures\struct_practicum1.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\struct_practicum1.cpp.obj
-.PHONY : Structures\struct_practicum1.cpp.obj
+Structures\exercises\exercise1.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\exercises\exercise1.cpp.obj
+.PHONY : Structures\exercises\exercise1.cpp.obj
 
-Structures\struct_practicum1.i: Structures\struct_practicum1.cpp.i
-.PHONY : Structures\struct_practicum1.i
+Structures\exercises\exercise1.i: Structures\exercises\exercise1.cpp.i
+.PHONY : Structures\exercises\exercise1.i
 
 # target to preprocess a source file
-Structures\struct_practicum1.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\struct_practicum1.cpp.i
-.PHONY : Structures\struct_practicum1.cpp.i
+Structures\exercises\exercise1.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\exercises\exercise1.cpp.i
+.PHONY : Structures\exercises\exercise1.cpp.i
 
-Structures\struct_practicum1.s: Structures\struct_practicum1.cpp.s
-.PHONY : Structures\struct_practicum1.s
+Structures\exercises\exercise1.s: Structures\exercises\exercise1.cpp.s
+.PHONY : Structures\exercises\exercise1.s
 
 # target to generate assembly for a file
-Structures\struct_practicum1.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\struct_practicum1.cpp.s
-.PHONY : Structures\struct_practicum1.cpp.s
+Structures\exercises\exercise1.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Structures\exercises\exercise1.cpp.s
+.PHONY : Structures\exercises\exercise1.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2022_tasks
-	@echo ... Structures/struct_practicum1.obj
-	@echo ... Structures/struct_practicum1.i
-	@echo ... Structures/struct_practicum1.s
+	@echo ... Structures/exercises/exercise1.obj
+	@echo ... Structures/exercises/exercise1.i
+	@echo ... Structures/exercises/exercise1.s
 .PHONY : help
 
 

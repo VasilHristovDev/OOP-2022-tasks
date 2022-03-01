@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/OOP/OOP-2022-tasks/Structures/struct_practicum1.cpp" "D:/OOP/OOP-2022-tasks/cmake-build-debug/CMakeFiles/OOP_2022_tasks.dir/Structures/struct_practicum1.cpp.obj"
+  "D:/OOP/OOP-2022-tasks/Structures/exercises/exercise1.cpp" "D:/OOP/OOP-2022-tasks/cmake-build-debug/CMakeFiles/OOP_2022_tasks.dir/Structures/exercises/exercise1.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

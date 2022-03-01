@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_2022_tasks.dir/Structures/struct_practicum1.cpp.obj"
+  "CMakeFiles/OOP_2022_tasks.dir/Structures/exercises/exercise1.cpp.obj"
   "OOP_2022_tasks.exe"
   "OOP_2022_tasks.exe.manifest"
   "OOP_2022_tasks.lib"
