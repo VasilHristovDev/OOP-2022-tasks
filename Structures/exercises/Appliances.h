@@ -4,11 +4,14 @@
 struct Appliance {
     int operationalHours;
     float wattage;
+    // luxuryClass е число между 0 и 10, но никъде не е казано, че е цяло число
     int luxuryClass;
     float price;
 
     void init()
     {
+        //обвързването на iostream с реализацията на типове данни е излишно и като цяло лоша идея. Ако искаш да имаш функция, която да въвежда данни от клавиатурата,
+        //изнеси я на друго място - провери SRP
         std::cout<<"Enter operation hours of appliance:";
         std::cin>>operationalHours;
         std::cout<<"Enter wattage of appliance:";
@@ -20,6 +23,7 @@ struct Appliance {
     }
 };
 //Using polymorphism
+//Това не е полиморфизъм, а наследяване
 struct Microwave:  Appliance {};
 struct Fridge:  Appliance {};
 struct Aspirator:  Appliance {};
@@ -29,6 +33,7 @@ struct Stove:  Appliance {};
 float getKWH(Appliance & appliance, const float priceKWH)
 {
     int operationalHoursForMonth = appliance.operationalHours * 30;
+    //не разбирам това 24 от къде дойде :)
     return ((((float)operationalHoursForMonth * appliance.wattage) / 1000) * priceKWH) / 24;
 }
 
