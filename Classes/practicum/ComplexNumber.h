@@ -9,9 +9,9 @@ public:
 
     ComplexNumber(double real, double imaginary);
 
-    double getRealPart();
+    double getRealPart() const;
 
-    double getImaginaryPart();
+    double getImaginaryPart() const;
 
     void setRealPart(double number);
 
@@ -19,7 +19,7 @@ public:
 
     void readComplexNumber();
 
-    void printComplexNumber();
+    void printComplexNumber() const;
 
     void add(ComplexNumber number);
 
