@@ -1,5 +1,5 @@
 #include <iostream>
-#include "ComplexNumber.cpp"
+#include "ComplexNumber.h"
 
 
 int main() {

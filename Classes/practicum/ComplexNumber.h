@@ -30,6 +30,10 @@ public:
     void divideBy(ComplexNumber number);
 
 };
+ComplexNumber addTwo(const ComplexNumber &a, const ComplexNumber &b);
+ComplexNumber subtractTwo(const ComplexNumber &a, const ComplexNumber &b);
+ComplexNumber multiplyTwo(const ComplexNumber &a, const ComplexNumber &b);
+ComplexNumber divideTwo(const ComplexNumber &a, const ComplexNumber &b);
 
 
 

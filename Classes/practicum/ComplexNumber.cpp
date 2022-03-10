@@ -54,26 +54,26 @@ void ComplexNumber::divideBy(ComplexNumber number) {
     this->imaginary = this->imaginary * number.real - this->real * number.imaginary /
             (number.real * number.real + number.imaginary * number.imaginary);
 }
-ComplexNumber addTwo(ComplexNumber a, ComplexNumber b) {
+ComplexNumber addTwo(const ComplexNumber &a, const ComplexNumber &b) {
     return {a.getRealPart() + b.getRealPart(), a.getImaginaryPart() + b.getImaginaryPart()};
 }
 
-ComplexNumber subtractTwo(ComplexNumber a, ComplexNumber b) {
+ComplexNumber subtractTwo(const ComplexNumber &a, const ComplexNumber &b) {
     return {a.getRealPart() - b.getRealPart(), a.getImaginaryPart() - b.getImaginaryPart()};
 }
 
-ComplexNumber multiplyTwo(ComplexNumber a, ComplexNumber b) {
+ComplexNumber multiplyTwo(const ComplexNumber &a, const ComplexNumber &b) {
     ComplexNumber result;
     result.setRealPart(a.getRealPart() * b.getRealPart() - a.getImaginaryPart() * b.getImaginaryPart());
     result.setImaginaryPart(a.getRealPart() * b.getImaginaryPart() + a.getImaginaryPart() * b.getRealPart());
     return result;
 }
 
-ComplexNumber divideTwo(ComplexNumber a, ComplexNumber b) {
+ComplexNumber divideTwo(const ComplexNumber a, const ComplexNumber &b) {
     ComplexNumber result;
     result.setRealPart(a.getRealPart() * b.getRealPart() + a.getImaginaryPart() * b.getImaginaryPart() /
-                                                           (b.getRealPart() * b.getRealPart() + b.getImaginaryPart() * b.getImaginaryPart()));
+        (b.getRealPart() * b.getRealPart() + b.getImaginaryPart() * b.getImaginaryPart()));
     result.setImaginaryPart(a.getImaginaryPart() * b.getRealPart() - a.getRealPart() * b.getImaginaryPart() /
-                                                                     (b.getRealPart() * b.getRealPart() + b.getImaginaryPart() * b.getImaginaryPart()));
+        (b.getRealPart() * b.getRealPart() + b.getImaginaryPart() * b.getImaginaryPart()));
     return result;
 }
