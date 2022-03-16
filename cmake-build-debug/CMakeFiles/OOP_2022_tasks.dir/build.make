@@ -55,33 +55,33 @@ include CMakeFiles\OOP_2022_tasks.dir\progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles\OOP_2022_tasks.dir\flags.make
 
-CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj: CMakeFiles\OOP_2022_tasks.dir\flags.make
-CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj: ..\Classes\practicum\main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OOP\OOP-2022-tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2022_tasks.dir/Classes/practicum/main.cpp.obj"
+CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj: CMakeFiles\OOP_2022_tasks.dir\flags.make
+CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj: ..\Classes\exercises\mainIntersection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=D:\OOP\OOP-2022-tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/mainIntersection.cpp.obj"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj /FdCMakeFiles\OOP_2022_tasks.dir\ /FS -c D:\OOP\OOP-2022-tasks\Classes\practicum\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoCMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj /FdCMakeFiles\OOP_2022_tasks.dir\ /FS -c D:\OOP\OOP-2022-tasks\Classes\exercises\mainIntersection.cpp
 <<
 
-CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2022_tasks.dir/Classes/practicum/main.cpp.i"
-	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.i @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP\OOP-2022-tasks\Classes\practicum\main.cpp
+CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/mainIntersection.cpp.i"
+	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe > CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.i @<<
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\OOP\OOP-2022-tasks\Classes\exercises\mainIntersection.cpp
 <<
 
-CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2022_tasks.dir/Classes/practicum/main.cpp.s"
+CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/mainIntersection.cpp.s"
 	C:\PROGRA~2\MICROS~2\2019\COMMUN~1\VC\Tools\MSVC\1429~1.301\bin\Hostx86\x86\cl.exe @<<
- /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.s /c D:\OOP\OOP-2022-tasks\Classes\practicum\main.cpp
+ /nologo /TP $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) /FoNUL /FAs /FaCMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.s /c D:\OOP\OOP-2022-tasks\Classes\exercises\mainIntersection.cpp
 <<
 
 # Object files for target OOP_2022_tasks
 OOP_2022_tasks_OBJECTS = \
-"CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj"
+"CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj"
 
 # External object files for target OOP_2022_tasks
 OOP_2022_tasks_EXTERNAL_OBJECTS =
 
-OOP_2022_tasks.exe: CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj
+OOP_2022_tasks.exe: CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj
 OOP_2022_tasks.exe: CMakeFiles\OOP_2022_tasks.dir\build.make
 OOP_2022_tasks.exe: CMakeFiles\OOP_2022_tasks.dir\objects1.rsp
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=D:\OOP\OOP-2022-tasks\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable OOP_2022_tasks.exe"

@@ -82,7 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/practicum/main.cpp">
+		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/mainIntersection.cpp">
 			<Option target="OOP_2022_tasks"/>
 		</Unit>
 		<Unit filename="D:/OOP/OOP-2022-tasks/CMakeLists.txt">

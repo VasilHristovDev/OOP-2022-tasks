@@ -118,29 +118,29 @@ OOP_2022_tasks\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\build
 .PHONY : OOP_2022_tasks\fast
 
-Classes\practicum\main.obj: Classes\practicum\main.cpp.obj
-.PHONY : Classes\practicum\main.obj
+Classes\exercises\mainIntersection.obj: Classes\exercises\mainIntersection.cpp.obj
+.PHONY : Classes\exercises\mainIntersection.obj
 
 # target to build an object file
-Classes\practicum\main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.obj
-.PHONY : Classes\practicum\main.cpp.obj
+Classes\exercises\mainIntersection.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj
+.PHONY : Classes\exercises\mainIntersection.cpp.obj
 
-Classes\practicum\main.i: Classes\practicum\main.cpp.i
-.PHONY : Classes\practicum\main.i
+Classes\exercises\mainIntersection.i: Classes\exercises\mainIntersection.cpp.i
+.PHONY : Classes\exercises\mainIntersection.i
 
 # target to preprocess a source file
-Classes\practicum\main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.i
-.PHONY : Classes\practicum\main.cpp.i
+Classes\exercises\mainIntersection.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.i
+.PHONY : Classes\exercises\mainIntersection.cpp.i
 
-Classes\practicum\main.s: Classes\practicum\main.cpp.s
-.PHONY : Classes\practicum\main.s
+Classes\exercises\mainIntersection.s: Classes\exercises\mainIntersection.cpp.s
+.PHONY : Classes\exercises\mainIntersection.s
 
 # target to generate assembly for a file
-Classes\practicum\main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\practicum\main.cpp.s
-.PHONY : Classes\practicum\main.cpp.s
+Classes\exercises\mainIntersection.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.s
+.PHONY : Classes\exercises\mainIntersection.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2022_tasks
-	@echo ... Classes/practicum/main.obj
-	@echo ... Classes/practicum/main.i
-	@echo ... Classes/practicum/main.s
+	@echo ... Classes/exercises/mainIntersection.obj
+	@echo ... Classes/exercises/mainIntersection.i
+	@echo ... Classes/exercises/mainIntersection.s
 .PHONY : help
 
 

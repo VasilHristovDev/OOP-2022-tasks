@@ -69,7 +69,7 @@ ComplexNumber multiplyTwo(const ComplexNumber &a, const ComplexNumber &b) {
     return result;
 }
 
-ComplexNumber divideTwo(const ComplexNumber a, const ComplexNumber &b) {
+ComplexNumber divideTwo(const ComplexNumber &a, const ComplexNumber &b) {
     ComplexNumber result;
     result.setRealPart(a.getRealPart() * b.getRealPart() + a.getImaginaryPart() * b.getImaginaryPart() /
         (b.getRealPart() * b.getRealPart() + b.getImaginaryPart() * b.getImaginaryPart()));
