@@ -3,7 +3,7 @@
 #include <string>
 #include <iostream>
 
-const char directions[4][6]{{"east"},
+const char directions[4][6] = {{"east"},
                             {"west"},
                             {"north"},
                             {"south"}};

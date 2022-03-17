@@ -118,29 +118,29 @@ OOP_2022_tasks\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\build
 .PHONY : OOP_2022_tasks\fast
 
-Classes\exercises\hw1\QuadraticEquation.obj: Classes\exercises\hw1\QuadraticEquation.cpp.obj
-.PHONY : Classes\exercises\hw1\QuadraticEquation.obj
+Classes\exercises\hw1\BigElevator.obj: Classes\exercises\hw1\BigElevator.cpp.obj
+.PHONY : Classes\exercises\hw1\BigElevator.obj
 
 # target to build an object file
-Classes\exercises\hw1\QuadraticEquation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.obj
-.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.obj
+Classes\exercises\hw1\BigElevator.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.obj
+.PHONY : Classes\exercises\hw1\BigElevator.cpp.obj
 
-Classes\exercises\hw1\QuadraticEquation.i: Classes\exercises\hw1\QuadraticEquation.cpp.i
-.PHONY : Classes\exercises\hw1\QuadraticEquation.i
+Classes\exercises\hw1\BigElevator.i: Classes\exercises\hw1\BigElevator.cpp.i
+.PHONY : Classes\exercises\hw1\BigElevator.i
 
 # target to preprocess a source file
-Classes\exercises\hw1\QuadraticEquation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.i
-.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.i
+Classes\exercises\hw1\BigElevator.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.i
+.PHONY : Classes\exercises\hw1\BigElevator.cpp.i
 
-Classes\exercises\hw1\QuadraticEquation.s: Classes\exercises\hw1\QuadraticEquation.cpp.s
-.PHONY : Classes\exercises\hw1\QuadraticEquation.s
+Classes\exercises\hw1\BigElevator.s: Classes\exercises\hw1\BigElevator.cpp.s
+.PHONY : Classes\exercises\hw1\BigElevator.s
 
 # target to generate assembly for a file
-Classes\exercises\hw1\QuadraticEquation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.s
-.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.s
+Classes\exercises\hw1\BigElevator.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.s
+.PHONY : Classes\exercises\hw1\BigElevator.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2022_tasks
-	@echo ... Classes/exercises/hw1/QuadraticEquation.obj
-	@echo ... Classes/exercises/hw1/QuadraticEquation.i
-	@echo ... Classes/exercises/hw1/QuadraticEquation.s
+	@echo ... Classes/exercises/hw1/BigElevator.obj
+	@echo ... Classes/exercises/hw1/BigElevator.i
+	@echo ... Classes/exercises/hw1/BigElevator.s
 .PHONY : help
 
 

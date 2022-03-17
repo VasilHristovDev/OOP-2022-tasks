@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.cpp" "D:/OOP/OOP-2022-tasks/cmake-build-debug/CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/hw1/QuadraticEquation.cpp.obj"
+  "D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/BigElevator.cpp" "D:/OOP/OOP-2022-tasks/cmake-build-debug/CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/hw1/BigElevator.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "MSVC")
 

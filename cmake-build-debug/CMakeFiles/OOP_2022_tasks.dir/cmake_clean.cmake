@@ -1,5 +1,5 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/hw1/QuadraticEquation.cpp.obj"
+  "CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/hw1/BigElevator.cpp.obj"
   "OOP_2022_tasks.exe"
   "OOP_2022_tasks.exe.manifest"
   "OOP_2022_tasks.lib"
