@@ -1,4 +1,3 @@
-#include <iostream>
 #include "Intersection.cpp"
 
 int main()

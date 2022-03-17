@@ -19,14 +19,14 @@ private:
     unsigned numberOfCarsNorth = 0;
 
     int duration;
-    std::string currentDirection;
+    char * currentDirection;
     int currentDirectionIndex = 0;
 
 public:
     Intersection();
 
-    Intersection(std::string initDirection, int duration);
-
+    Intersection(const char * initDirection, int duration);
+    const int getDuration() const;
     void addWest(Car car);
 
     void incrementWest();
@@ -71,11 +71,11 @@ public:
 
     void changeDirection();
 
-    const std::string getCurrentDirection() const;
+    const char * getCurrentDirection() const;
 
     void tick();
 
-    void add(Car car, std::string direction);
+    void add(Car car, const char * direction);
 
 };
 

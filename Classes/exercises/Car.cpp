@@ -2,6 +2,12 @@
 #include <cstring>
 #include "Car.h"
 
+Car::Car() {
+    this->licensePlate = nullptr;
+    this->brand = nullptr;
+    this->color = nullptr;
+    this->doorsCount = 0;
+}
 Car::Car(const char *licensePlate, const char *brand, const char *color, const int numberDoors) {
     this->setLicensePlate(licensePlate);
     this->setBrand(brand);
@@ -10,17 +16,23 @@ Car::Car(const char *licensePlate, const char *brand, const char *color, const i
 }
 
 void Car::setLicensePlate(const char *_licensePlate) {
-    this->licensePlate = new char[strlen(_licensePlate)];
+    if(this->licensePlate != nullptr)
+        delete [] this->licensePlate;
+    this->licensePlate = new char[strlen(_licensePlate) + 1];
     strcpy_s(this->licensePlate, _licensePlate);
 }
 
 void Car::setBrand(const char *_brand) {
-    this->brand = new char[strlen(_brand)];
+    if(this->brand != nullptr)
+        delete [] this->brand;
+    this->brand = new char[strlen(_brand) + 1];
     strcpy(this->brand, _brand);
 }
 
 void Car::setColor(const char *_color) {
-    this->color = new char[strlen(_color)];
+    if(this->color != nullptr)
+        delete [] this->color;
+    this->color = new char[strlen(_color) + 1];
     strcpy(this->color, _color);
 }
 
@@ -28,16 +40,16 @@ void Car::setDoorsCount(int _doorsCount) {
     this->doorsCount = _doorsCount;
 }
 
-char * Car::getLicensePlate() const {
+const char * Car::getLicensePlate() const {
     return this->licensePlate;
 }
-char * Car::getBrand() const {
+const char * Car::getBrand() const {
     return this->brand;
 }
-char * Car::getColor() const {
+const char * Car::getColor() const {
     return this->color;
 }
-char * Car::getDoorsCount() const {
+const int Car::getDoorsCount() const {
     return this->doorsCount;
 }
 

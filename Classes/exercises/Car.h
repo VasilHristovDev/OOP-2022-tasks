@@ -3,9 +3,9 @@
 
 class Car {
 private:
-    char licensePlate[8];
-    char brand[20];
-    char color[20];
+    char * licensePlate = nullptr;
+    char * brand = nullptr;
+    char * color = nullptr;
     int doorsCount;
 
 public:
@@ -13,13 +13,13 @@ public:
 
     Car(const char *licensePlate, const char *brand, const char *color, const int numberDoors);
 
-    char *getLicensePlate() const;
+    const char *getLicensePlate() const;
 
-    char *getBrand() const;
+    const char *getBrand() const;
 
-    char *getColor() const;
+    const char *getColor() const;
 
-    int getDoorsCount() const;
+    const int getDoorsCount() const;
 
     void setLicensePlate(const char *licensePlate);
 
@@ -27,7 +27,7 @@ public:
 
     void setColor(const char *color);
 
-    void setDoorsCount(int doorsCount);
+    void setDoorsCount(const int doorsCount);
 
     void print();
 
