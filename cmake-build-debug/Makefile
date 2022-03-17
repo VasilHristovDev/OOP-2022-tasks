@@ -118,29 +118,29 @@ OOP_2022_tasks\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\build
 .PHONY : OOP_2022_tasks\fast
 
-Classes\exercises\mainIntersection.obj: Classes\exercises\mainIntersection.cpp.obj
-.PHONY : Classes\exercises\mainIntersection.obj
+Classes\exercises\hw1\QuadraticEquation.obj: Classes\exercises\hw1\QuadraticEquation.cpp.obj
+.PHONY : Classes\exercises\hw1\QuadraticEquation.obj
 
 # target to build an object file
-Classes\exercises\mainIntersection.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.obj
-.PHONY : Classes\exercises\mainIntersection.cpp.obj
+Classes\exercises\hw1\QuadraticEquation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.obj
+.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.obj
 
-Classes\exercises\mainIntersection.i: Classes\exercises\mainIntersection.cpp.i
-.PHONY : Classes\exercises\mainIntersection.i
+Classes\exercises\hw1\QuadraticEquation.i: Classes\exercises\hw1\QuadraticEquation.cpp.i
+.PHONY : Classes\exercises\hw1\QuadraticEquation.i
 
 # target to preprocess a source file
-Classes\exercises\mainIntersection.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.i
-.PHONY : Classes\exercises\mainIntersection.cpp.i
+Classes\exercises\hw1\QuadraticEquation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.i
+.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.i
 
-Classes\exercises\mainIntersection.s: Classes\exercises\mainIntersection.cpp.s
-.PHONY : Classes\exercises\mainIntersection.s
+Classes\exercises\hw1\QuadraticEquation.s: Classes\exercises\hw1\QuadraticEquation.cpp.s
+.PHONY : Classes\exercises\hw1\QuadraticEquation.s
 
 # target to generate assembly for a file
-Classes\exercises\mainIntersection.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\mainIntersection.cpp.s
-.PHONY : Classes\exercises\mainIntersection.cpp.s
+Classes\exercises\hw1\QuadraticEquation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\QuadraticEquation.cpp.s
+.PHONY : Classes\exercises\hw1\QuadraticEquation.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2022_tasks
-	@echo ... Classes/exercises/mainIntersection.obj
-	@echo ... Classes/exercises/mainIntersection.i
-	@echo ... Classes/exercises/mainIntersection.s
+	@echo ... Classes/exercises/hw1/QuadraticEquation.obj
+	@echo ... Classes/exercises/hw1/QuadraticEquation.i
+	@echo ... Classes/exercises/hw1/QuadraticEquation.s
 .PHONY : help
 
 

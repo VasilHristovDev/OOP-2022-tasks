@@ -82,7 +82,10 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/mainIntersection.cpp">
+		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.cpp">
+			<Option target="OOP_2022_tasks"/>
+		</Unit>
+		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.h">
 			<Option target="OOP_2022_tasks"/>
 		</Unit>
 		<Unit filename="D:/OOP/OOP-2022-tasks/CMakeLists.txt">

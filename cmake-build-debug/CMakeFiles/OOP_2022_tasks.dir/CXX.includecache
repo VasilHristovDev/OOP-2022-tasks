@@ -6,25 +6,13 @@
 
 #IncludeRegexTransform: 
 
-D:/OOP/OOP-2022-tasks/Classes/exercises/Car.h
-
-D:/OOP/OOP-2022-tasks/Classes/exercises/Intersection.cpp
-Intersection.h
-D:/OOP/OOP-2022-tasks/Classes/exercises/Intersection.h
-cstring
--
-string
--
+D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.cpp
+QuadraticEquation.h
+D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.h
 iostream
 -
-
-D:/OOP/OOP-2022-tasks/Classes/exercises/Intersection.h
-Car.h
-D:/OOP/OOP-2022-tasks/Classes/exercises/Car.h
-string
+cmath
 -
 
-D:/OOP/OOP-2022-tasks/Classes/exercises/mainIntersection.cpp
-Intersection.cpp
-D:/OOP/OOP-2022-tasks/Classes/exercises/Intersection.cpp
+D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/QuadraticEquation.h
 
