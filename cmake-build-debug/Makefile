@@ -118,29 +118,29 @@ OOP_2022_tasks\fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\build
 .PHONY : OOP_2022_tasks\fast
 
-Classes\exercises\hw1\BigElevator.obj: Classes\exercises\hw1\BigElevator.cpp.obj
-.PHONY : Classes\exercises\hw1\BigElevator.obj
+Classes\exercises\main.obj: Classes\exercises\main.cpp.obj
+.PHONY : Classes\exercises\main.obj
 
 # target to build an object file
-Classes\exercises\hw1\BigElevator.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.obj
-.PHONY : Classes\exercises\hw1\BigElevator.cpp.obj
+Classes\exercises\main.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\main.cpp.obj
+.PHONY : Classes\exercises\main.cpp.obj
 
-Classes\exercises\hw1\BigElevator.i: Classes\exercises\hw1\BigElevator.cpp.i
-.PHONY : Classes\exercises\hw1\BigElevator.i
+Classes\exercises\main.i: Classes\exercises\main.cpp.i
+.PHONY : Classes\exercises\main.i
 
 # target to preprocess a source file
-Classes\exercises\hw1\BigElevator.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.i
-.PHONY : Classes\exercises\hw1\BigElevator.cpp.i
+Classes\exercises\main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\main.cpp.i
+.PHONY : Classes\exercises\main.cpp.i
 
-Classes\exercises\hw1\BigElevator.s: Classes\exercises\hw1\BigElevator.cpp.s
-.PHONY : Classes\exercises\hw1\BigElevator.s
+Classes\exercises\main.s: Classes\exercises\main.cpp.s
+.PHONY : Classes\exercises\main.s
 
 # target to generate assembly for a file
-Classes\exercises\hw1\BigElevator.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\hw1\BigElevator.cpp.s
-.PHONY : Classes\exercises\hw1\BigElevator.cpp.s
+Classes\exercises\main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\OOP_2022_tasks.dir\build.make /nologo -$(MAKEFLAGS) CMakeFiles\OOP_2022_tasks.dir\Classes\exercises\main.cpp.s
+.PHONY : Classes\exercises\main.cpp.s
 
 # Help Target
 help:
@@ -151,9 +151,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... OOP_2022_tasks
-	@echo ... Classes/exercises/hw1/BigElevator.obj
-	@echo ... Classes/exercises/hw1/BigElevator.i
-	@echo ... Classes/exercises/hw1/BigElevator.s
+	@echo ... Classes/exercises/main.obj
+	@echo ... Classes/exercises/main.i
+	@echo ... Classes/exercises/main.s
 .PHONY : help
 
 

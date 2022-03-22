@@ -82,10 +82,7 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/BigElevator.cpp">
-			<Option target="OOP_2022_tasks"/>
-		</Unit>
-		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/hw1/BigElevator.h">
+		<Unit filename="D:/OOP/OOP-2022-tasks/Classes/exercises/main.cpp">
 			<Option target="OOP_2022_tasks"/>
 		</Unit>
 		<Unit filename="D:/OOP/OOP-2022-tasks/CMakeLists.txt">
