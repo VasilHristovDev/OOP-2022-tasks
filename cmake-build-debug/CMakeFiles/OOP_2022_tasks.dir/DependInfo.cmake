@@ -4,20 +4,11 @@ set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
 
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "D:/OOP/OOP-2022-tasks/Classes/exercises/main.cpp" "D:/OOP/OOP-2022-tasks/cmake-build-debug/CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/main.cpp.obj"
-  )
-set(CMAKE_CXX_COMPILER_ID "MSVC")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "D:/OOP-2022-tasks/Classes/exercises/main.cpp" "CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/main.cpp.obj" "gcc" "CMakeFiles/OOP_2022_tasks.dir/Classes/exercises/main.cpp.obj.d"
   )
 
 # Targets to which this target links.
